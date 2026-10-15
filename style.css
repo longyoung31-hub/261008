@@ -8,9 +8,6 @@ body {
 .site-header {
   position: sticky;
   top: 0;
-  
-  top: 0;
-
   z-index: 10;
   padding: 16px 8%;
   text-align: center;
@@ -23,4 +20,21 @@ body {
   margin: 0 12px;
   color: white;
   text-decoration: none;
+}
+
+.hero {
+  min-height: 300px;
+  padding: 64px 8%;
+  background: #1f5d78;
+  color: white;
+}
+
+.hero h2 {
+  margin: 10px 0 16px;
+  font-size: 46px;
+}
+
+.hero p {
+  max-width: 620px;
+  line-height: 1.8;
 }
