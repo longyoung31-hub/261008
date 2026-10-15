@@ -130,6 +130,53 @@ img {
   text-decoration: none;
   font-weight: 800;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form {
+  display: none;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.signup-panel.open .signup-form {
+  display: block;
+}
+
+.field-row {
+  margin-bottom: 14px;
+}
+
+.field-row label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: white;
+}
+
+.field-row input,
+.field-row select,
+.field-row textarea {
+  width: 100%;
+  margin-top: 6px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #f4c95d;
+  color: #17324d;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 .info-section {

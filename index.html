@@ -32,7 +32,40 @@
           <span class="mini-tag">剩 8 位</span>
           <h3>立即報名</h3>
           <p>名額有限，歡迎一起加入這場城市散步。</p>
-          <a class="signup-button" href="#">立即報名</a>
+          <button class="signup-button" type="button" data-toggle="signup-form">立即報名</button>
+
+          <form class="signup-form" id="signup-form">
+            <div class="field-row">
+              <label>姓名
+                <input type="text" name="name" placeholder="請輸入姓名">
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label>電話
+                <input type="tel" name="phone" placeholder="請輸入電話">
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label>人數
+                <select name="people">
+                  <option>1 位</option>
+                  <option>2 位</option>
+                  <option>3 位</option>
+                  <option>4 位</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label>備註
+                <textarea name="note" rows="3" placeholder="例如：有過敏、想要跟朋友同行"></textarea>
+              </label>
+            </div>
+
+            <button class="submit-button" type="submit">送出報名</button>
+          </form>
         </div>
       </div>
     </section>
