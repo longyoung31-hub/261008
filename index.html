@@ -8,51 +8,66 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>城市散步</h1>
-    <nav>
-      <a href="#event">活動資訊</a>
-      <a href="#signup">立即報名</a>
-    </nav>
+    <div class="container header-inner">
+      <h1>城市散步</h1>
+      <nav>
+        <a href="#event">活動資訊</a>
+        <a href="#signup">立即報名</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <p>TAIPEI WALKING TOUR</p>
-    <h2>大稻埕午後散步</h2>
-    <p>
-      穿過老街與河岸，在三小時內認識城市故事與生活風景。
-    </p>
-  </section>
-  <section id="event" class="event-card with-badge">
-    <span class="badge">剩 8 位</span>
-    <h2>活動資訊</h2>
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">TAIPEI WALKING TOUR</p>
+          <h2>大稻埕午後散步</h2>
+          <p class="lead">
+            穿過老街與河岸，在三小時內認識城市故事與生活風景。
+          </p>
+        </div>
 
-    <table class="info-table">
-      <tr>
-        <th>日期</th>
-        <td>2026 年 10 月 17 日</td>
-      </tr>
-      <tr>
-        <th>時間</th>
-        <td>14:00–17:00</td>
-      </tr>
-      <tr>
-        <th>集合</th>
-        <td>捷運北門站</td>
-      </tr>
-    </table>
-  </section>
+        <div id="signup" class="signup-panel">
+          <span class="mini-tag">剩 8 位</span>
+          <h3>立即報名</h3>
+          <p>名額有限，歡迎一起加入這場城市散步。</p>
+          <a class="signup-button" href="#">立即報名</a>
+        </div>
+      </div>
+    </section>
 
-  <aside class="notice-card">
-    <span class="notice-badge">提醒</span>
-    <h2>集合提醒</h2>
-    <p>請提前 10 分鐘抵達，並自備飲水。</p>
-  </aside>
+    <section id="event" class="info-section">
+      <div class="container">
+        <div class="info-grid">
+          <article class="event-card with-badge">
+            <span class="badge">剩 8 位</span>
+            <h2>活動資訊</h2>
 
-  <section id="signup" class="signup-section">
-    <h2>立即報名</h2>
-    <p>名額有限，歡迎一起加入這場城市散步。</p>
-    <a class="signup-button" href="#">立即報名</a>
-  </section>
+            <table class="info-table">
+              <tr>
+                <th>日期</th>
+                <td>2026 年 10 月 17 日</td>
+              </tr>
+              <tr>
+                <th>時間</th>
+                <td>14:00–17:00</td>
+              </tr>
+              <tr>
+                <th>集合</th>
+                <td>捷運北門站</td>
+              </tr>
+            </table>
+          </article>
 
+          <aside class="notice-card">
+            <span class="notice-badge">提醒</span>
+            <h2>集合提醒</h2>
+            <p>請提前 10 分鐘抵達，並自備飲水。</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
