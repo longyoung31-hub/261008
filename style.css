@@ -117,3 +117,28 @@ body {
 .info-table td {
   color: #2a3d4d;
 }
+
+.signup-section {
+  width: 84%;
+  max-width: 760px;
+  margin: 0 auto 60px;
+  padding: 24px 30px;
+  border-radius: 18px;
+  background: #17324d;
+  color: white;
+}
+
+.signup-section h2 {
+  margin-top: 0;
+}
+
+.signup-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 20px;
+  background: #f4c95d;
+  color: #17324d;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+}
