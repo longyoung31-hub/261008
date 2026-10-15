@@ -92,3 +92,28 @@ body {
   color: #17324d;
   font-weight: bold;
 }
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.info-table th,
+.info-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #dfe9f1;
+  text-align: left;
+  vertical-align: top;
+}
+
+.info-table th {
+  width: 120px;
+  color: #17324d;
+  font-weight: 700;
+}
+
+.info-table td {
+  color: #2a3d4d;
+}
